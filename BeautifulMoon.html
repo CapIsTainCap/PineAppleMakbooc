@@ -1,0 +1,181 @@
+<!--Building A Product Landing Page With HTML-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="icon" href="del.png" type="image/x-icon">
+        <title>
+            Product Landing Page
+        </title>
+        <meta charset="utf-8">
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            .main-heading{
+                font-family: 'Comfortaa';
+                text-align: center;
+            }
+            .ele-div1{
+                font-family: 'Montserrat', 'Comfortaa';
+                cursor: default;
+            }
+            .display-div, .feature-div, .spec-div{
+                position: relative;
+                background: yellow;
+                display: inline-block;
+                align-items: center;
+                justify-content: space-around;
+                margin: 30px;
+                padding: 5px;
+                border-radius: 10px;
+                text-align: center;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            .imgs{
+                position: relative;
+                margin: 20px;
+                border-radius: 20px;
+                transition: 0.3s;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            .imgs:hover{
+                transform: rotate(4deg);
+                opacity: 0.8;
+                transition: 0.3s;
+            }
+            h2.main-heading{
+                font-family: 'Montserrat';
+            }
+            .emh3{
+                text-align: center;
+            }
+            #emailid{
+                position: relative;
+                font-family: 'Comfortaa', 'Montserrat', 'Century Gothic', monospace;
+                border: 1px solid black;
+                border-radius: 4px;
+                font-family: 30px;
+                left: 550px;
+                padding: 10px 105px 10px 10px;
+                transition: 0.3s;
+            }
+            #emailid:hover{
+                opacity: 0.7;
+                transform:translateY(-4px);
+                transition: 0.3s;
+            }
+            .button {
+                position: relative;
+                background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+                font-family: 'Comfortaa', monospace;
+                left: 650px;
+                padding: 10px 15px 10px 15px;
+                border: 1px solid black;
+                border-radius: 10px;
+                transition: 0.3s;
+            }
+            .button:hover{
+                background: linear-gradient(35deg,#FFCCCC, #CCFFFF,#FFCCCC);
+                opacity: 0.7;
+                transform: translateY(-4px);
+                transition: 0.3s;
+            }
+            .button:active{
+                background: linear-gradient(35deg, #FFCCCC, #CCFFFF);
+                transform: translateY(1px);
+                transition: 0.3s;
+            }
+        </style>
+    </head>
+    <body>
+        <!--This Is A Prooduct Called Pineapple Makbooc Pro-->
+        <div class="main-div">
+            <main class="main">
+                <br>
+                <h1 class="main-heading">
+                    Pineapple MakBooc Pro
+                </h1>
+                <br>
+                <h2 class="main-heading">
+                    The Future Of Laptops Is Here...
+                </h2>
+                <hr>
+                <div class="ele-div1">
+                    <br>
+                    <br>
+                    <div class="display-div">
+                        MakBooc Pro Comes With An Elegant 14-Inch Display<br>
+                        It Also Has Anti-Glare Display Which Goes Easy On Your<br> Eyes.
+                        <br>
+                        <div class="imgdiv">
+                            <img src="ikon1.png" alt="Laptop Image" class="imgs" id="img1">
+                        </div>
+                    </div>
+                    <div class="feature-div">
+                        MakBooc Pro Includes Pre-Installed MakOS<br>
+                        Which Is Very Useful For Privacy Protection.
+                        <br>
+                        <div class="imgdiv">
+                            <img src="ikon8.png" alt="Laptop Image" class="imgs" id="img2">
+                        </div>
+                    </div>
+                    <div class="spec-div">
+                        MakBooc Pro Comes With Intel Core i7<br>
+                        Which Is Very Good For <br>Everyday / Work Use.
+                        <br>
+                        <div class="imgdiv">
+                            <img src="ikon7.png" alt="Laptop Image" class="imgs" id="img3">
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="ele-div2">
+                        <h2 class="main-heading">
+                            This Laptop Also Includes...
+                        </h2>
+                        <div class="display-div">
+                            MakBooc Pro Is Rated The Best Value For Money.<br>
+                            This Laptop Was Also Rated Amomg <br>Top 3 Laptops Of 2020.
+                            <br>
+                            <div class="imgdiv">
+                                <img src="ikon6.png" alt="Laptop Image" class="imgs" id="img1">
+                            </div>
+                        </div>
+                        <div class="feature-div">
+                            MakBooc Pro Prevents Third Party<br>
+                            Softwares To Prevent Your Tracking.
+                            <br>
+                            <div class="imgdiv">
+                                <img src="ikon5.png" alt="Laptop Image" class="imgs" id="img2">
+                            </div>
+                        </div>
+                        <div class="spec-div">
+                            MakBooc Has A Built In Anti-Virus<br>
+                            Which Prevent Viruses From
+                            Infecting Your Laptop.
+                            <br>
+                            <div class="imgdiv">
+                                <img src="ikon4.png" alt="Laptop Image" class="imgs" id="img3">
+                            </div>
+                        </div>
+                    </div>
+                    <br><hr><br>
+                    <div class="email-div">
+                        <h3 class="emh3">Please Enter Your Email If You're Interested</h3>
+                        <form action="https://www.apple.com/macbook-air/">
+                        <input type="email" placeholder="Enter Your Email" id="emailid">
+                        <br><br>
+                        <button type="submit" value="yes" class="button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
